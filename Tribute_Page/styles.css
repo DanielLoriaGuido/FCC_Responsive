@@ -1,0 +1,50 @@
+body {
+    font-family: Times-NewRoman, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;   background-color: lightgrey;
+}
+
+#main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#title {
+    font-size: 3.5em;
+}
+
+#img-div {
+  margin-top:10px;
+  margin-right: auto;
+    margin-left: auto;
+    background: white;
+    margin-bottom: 50px;
+    border-radius: 10px
+    
+}
+
+#image {
+  max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 25px;
+    border-radius: 250px;
+}
+
+#img-caption {
+  padding:10px;
+}
+
+ul > li {
+  text-align: justify;
+  padding: 5px;
+}
+
+blockquote {
+  text-align: justify;
+  font-style: italic;
+   max-width: 545px;
+    margin: 45px auto 10px auto;
+}
