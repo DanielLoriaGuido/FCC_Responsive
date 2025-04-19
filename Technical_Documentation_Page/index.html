@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- La siguiente etiqueta seria lo que muestra la pagina web en el buscador previo a ser abierta-->
+    <meta name="description" content="Esta pagina posee como finalidad senalar documentacion tecnica con respecto a React y Node">
+    <!--La siguiente etiqueta tiene como finaldad crear Keywords ( no es tan usada en la actualidad)-->
+    <meta name="keywords" content="Documentacion, React, Node">
+    <title>Technical Documentation Page</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<nav id="navbar">
+  <header>React and Node</header>
+  <ul>
+    <li><a href="#introduction" class="nav-link">Introduction</a></li>
+    <li><a href="#Javascript" class="nav-link">Javascript</a></li>
+    <li><a href="#Required_Knowledge" class="nav-link">Required Knowledge</a></li>
+    <li><a href="#React_and_Node" class="nav-link">React and Node</a></li>
+    <li><a href="#Pros_&_Cons" class="nav-link">Pros & Cons</a></li>
+    <li><a href="#Conclusion" class="nav-link">Conclusion</a></li>
+    <li><a href="#Reference" class="nav-link">Reference</a></li>
+  </ul>
+</nav>
+
+<main id="main-doc">
+
+  <section class="main-section" id="introduction">
+    <header>Introduction</header>
+    <p>This document explores the combination of React and Node.js, two fundamental technologies in modern web development. React, a JavaScript library for building user interfaces, and Node.js, a server-side JavaScript runtime environment, offer a powerful toolkit for creating complete and efficient web applications.</p>
+  </section>
+
+  <section class="main-section" id="Javascript">
+    <header>Javascript</header>
+    <p><strong>What is JavaScript?</strong> <br>JavaScript is an interpreted programming language that allows you to create dynamic content on web pages. Originally designed for the client-side, it is now also used on the server-side with Node.js.</p>
+    <p><strong>When to use JavaScript?</strong> <br>used to add interactivity to web pages, validate forms, create animations, handle events, and build complete web applications.</p>
+    <p><strong>Why JavaScript?</strong> <br>JavaScript is a versatile language that is widely supported by all modern browsers. Its use on the server-side with Node.js enables full-stack development with a single language.</p>
+    <p>Example of JavaScript code:</p>
+    <pre><code>
+      function greet(name) {
+        return "Hello, " + name + "!";
+      }
+    </code></pre>
+    <pre><code>
+      console.log(greet("World"));
+    </code></pre>
+    <pre><code>
+      isDay = true;
+    </code></pre>
+  </section>
+
+  <section class="main-section" id="Required_Knowledge">
+    <header>Required Knowledge</header>
+    <p>To make the most of React and Node.js, it is recommended to have basic knowledge of HTML, CSS, and JavaScript. Familiarity with programming concepts such as variables, functions, objects, and asynchrony is also helpful.</p>
+    <p>Furthermore, understanding the fundamentals of the command line and the use of npm (Node Package Manager) will facilitate the installation and management of dependencies in your projects.</p>
+  </section>
+
+  <section class="main-section" id="React_and_Node">
+    <header>React and Node</header>
+    <p>React is primarily used to build the user interface (front-end) of a web application, while Node.js is used for server-side (back-end) development. Together, they enable the creation of complete and efficient web applications.</p>
+    <p>React offers reusable components and a Virtual DOM to improve performance, while Node.js provides a fast and scalable runtime environment for the server. The combination of both enables full-stack development with JavaScript.</p>
+    <p>Example of React component:</p>
+    <pre><code>
+      function MyComponent() {
+        return &lt;div&gt;Hello, React!&lt;/div&gt;;
+      }
+    </code></pre>
+    <p>Example of Node.js code:</p>
+    <pre><code>
+      const http = require('http');
+      http.createServer((req, res) => {
+        res.writeHead(200, {'Content-Type': 'text/plain'});
+        res.end('Hello Node.js!');
+      }).listen(8080);
+    </code></pre>
+  </section>
+
+  <section class="main-section" id="Pros_&_Cons">
+    <header>Pros & Cons</header>
+    <table>
+      <tr>
+        <th>React Pros</th>
+        <th>Node Pros</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Fast performance</li>
+            <li>Reusable components</li>
+            <li>Large community</li>
+            <li>Declarative development</li>
+            <li>Popular library</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Fast runtime environment</li>
+            <li>Scalability</li>
+            <li>Large module ecosystem</li>
+            <li>Full-stack development with JavaScript</li>
+            <li>Active community</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>React Cons</th>
+        <th>Node Cons</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Initial learning curve</li>
+            <li>Tool fragmentation</li>
+            <li>Challenging SEO</li>
+            <li>Virtual DOM can be slow</li>
+            <li>Complexity for global states</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Not suitable for CPU-heavy tasks</li>
+            <li>Callback hell</li>
+            <li>Requires JavaScript knowledge on the server</li>
+            <li>Less stable than other languages</li>
+            <li>Difficulty debugging</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="main-section" id="Conclusion">
+    <header>Conclusion</header>
+    <p>React and Node.js are powerful tools that, when combined, allow the creation of modern and efficient web applications. The ability to use JavaScript on both the front-end and back-end simplifies development and improves productivity.</p>
+    <p>Although both technologies have their challenges, their advantages far outweigh the disadvantages, making them a popular choice for web developers worldwide.</p>
+  </section>
+
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <p><a href="https://reactjs.org/" target="_blank">React Official Documentation</a></p>
+    <p><a href="https://nodejs.org/en/docs/" target="_blank">Node.js Official Documentation</a></p>
+  </section>
+
+</main>
+</body>
+</html>
