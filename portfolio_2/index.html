@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Daniel Loria - Desarrollador Frontend">
+  <meta name="keywords" content="desarrollador, frontend, Costa Rica, Kyoto">
+  <title>Portfolio | Frontend Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script defer src="script.js"></script>
+</head>
+<body>    
+  <nav>
+    <div class="nav-container">
+      <div class="nav-profile">
+        <div class="profile-circle">
+          <img src="openart-b2befabb93c1454d8e816cfc4efc31c8_raw.jpg" alt="A photo of me">
+        </div>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <button class="close-menu" id="closeMenu">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul>
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#education">Educación</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-image">
+      <img src="openart-b2befabb93c1454d8e816cfc4efc31c8_raw.jpg" alt="Foto de Daniel Loria" class="profile-img">
+    </div>
+    <div class="hero-content">
+      <h1>Hola, soy <span>Daniel Loria</span></h1>
+      <p>Desarrollador Frontend de Costa Rica, estudiando en Kyoto Computer Gakuin (KCG) en el programa técnico de Business Fundamentals. Trabajo en Kura Sushi como líder de sección de cocina.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">Ver proyectos</a>
+        <a href="#contact" class="btn secondary-btn">Contactarme</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>Sobre mí</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Desarrollador Frontend con enfoque en experiencias de usuario interactivas</h3>
+          <p>Soy un desarrollador Frontend con más de 2 años de experiencia creando interfaces intuitivas y atractivas. Me especializo en HTML5, CSS3 y JavaScript, y disfruto utilizando frameworks modernos para llevar la web a otro nivel.</p>
+          <p>Mi objetivo es crear productos digitales accesibles, performantes y con un diseño atractivo. Actualmente, estudio en Kyoto Computer Gakuin y trabajo en Kura Sushi, donde aplico mis habilidades de comunicación y trabajo en equipo.</p>
+          <p>Hablo español nativo, inglés a nivel de negocios y tengo certificación JLPT N2 en japonés.</p>
+          <a href="#" class="btn primary-btn" id="download-cv">Descargar CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Mis habilidades</h2>
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Lenguajes</h3>
+          <ul class="skills-list">
+            <li class="skill-item"><i class="fab fa-html5"></i> HTML5</li>
+            <li class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</li>
+            <li class="skill-item"><i class="fab fa-js"></i> JavaScript</li>
+          </ul>
+        </div>
+      </div>
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Herramientas</h3>
+          <ul class="skills-list">
+            <li class="skill-item"><i class="fas fa-terminal"></i> Consola</li>
+            <li class="skill-item"><i class="fab fa-git-alt"></i> Git</li>
+            <li class="skill-item"><i class="fab fa-github"></i> GitHub</li>
+          </ul>
+        </div>
+      </div>
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3><i class="fas fa-user-friends"></i> Habilidades Blandas</h3>
+          <ul class="skills-list">
+            <li class="skill-item"><i class="fas fa-users"></i> Trabajo en equipo</li>
+            <li class="skill-item"><i class="fas fa-comments"></i> Comunicación</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-caption">Registration Form</div>
+          <img src="Reg.png" alt="Calculadora">
+          <div class="project-info">
+            <div class="tech-stack">
+              <i class="fab fa-html5" title="HTML5"></i>
+              <i class="fab fa-css3-alt" title="CSS3"></i>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-caption">Tribute Page</div>
+          <img src="Trib.png" alt="E-commerce">
+          <div class="project-info">
+            <div class="tech-stack">
+              <i class="fab fa-html5" title="HTML5"></i>
+              <i class="fab fa-css3-alt" title="CSS3"></i>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+            <h3 class="project-title">Technical Documentation</h3>
+            <div class="project-caption"></div>
+          <img src="Tech.png" alt="Blog">
+          <div class="project-info">
+            <div class="tech-stack">
+              <i class="fab fa-html5" title="HTML5"></i>
+              <i class="fab fa-css3-alt" title="CSS3"></i>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-caption">Calculadora</div>
+          <img src="calc.png" alt="Calculator">
+          <div class="project-info">
+            <div class="tech-stack">
+              <i class="fab fa-html5" title="HTML5"></i>
+              <i class="fab fa-css3-alt" title="CSS3"></i>
+              <i class="fab fa-js" title="JavaScript"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2>Educación y Certificaciones</h2>
+      <div class="education-simple">
+        <h3>Formación Académica y Desarrollo Profesional</h3>
+        <p>
+          Licenciado en Informática por la Universidad Nacional con especialización en Frontend.
+          Certificado JLPT N2 en japonés y cursos continuos de tecnologías web modernas.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contáctame</h2>
+    <details id="contact-details">
+      <summary>Formulario</summary>
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Tu correo electrónico" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" class="form-control" placeholder="Tu mensaje" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Enviar mensaje</button>
+      </form>
+      <div class="social-links">
+        <a href="https://github.com/DanielLoriaGuido" target="_blank" class="social-link" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/daniel-loria-2402ba260/" target="_blank" class="social-link" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </details>
+  </section>
+  <script defer src="script.js"></script>
+</body>
+</html>
+ 
